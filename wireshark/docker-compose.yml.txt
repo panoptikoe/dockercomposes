@@ -13,7 +13,7 @@ services:
       - TZ=Europe/Amsterdam
     volumes:
       - /home/pi/docker/wireshark/config:/config
-	- /home/pi/docker/wireshark/data:/data
+      - /home/pi/docker/wireshark/data:/data
     ports:
       - 3000:3000 #optional
     restart: unless-stopped
